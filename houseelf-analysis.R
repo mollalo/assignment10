@@ -15,6 +15,20 @@ houseelf_data <- function() {
 data <- houseelf_data()
 
 
+#################################### Question 4 ##########################################
+
+# Fiest off, we rename the .csv file from windows explorer to houseelf_earlength_dna_data_1.csv
+# when I use the codes for question 3 it doesn't work and thinks that we removed the file (red color in Git)
+#Now I change the R code of question 3 to reflect this name change as follow:
+
+houseelf_data <- function() {
+  data <- read.csv ("./data/houseelf_earlength_dna_data_1.csv")
+  return(data)
+}
+data <- houseelf_data()
+
+
+
 #################################### Question 5 ##########################################
 
 install.packages("stringr")
