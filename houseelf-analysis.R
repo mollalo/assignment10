@@ -1,9 +1,12 @@
 
 #################################### Question 2 ##########################################
 # Create a new file for your analysis named houseelf-analysis.R 
-# In this homework, we're gonna work with version control in R. 
+# In this homework, we're gonna work with version control in R.
 
 
+
+#################################### Question 3 ##########################################
+# Read the data using a function:
 
 houseelf_data <- function() {
   data <- read.csv ("./data/houseelf_earlength_dna_data.csv")
@@ -12,7 +15,8 @@ houseelf_data <- function() {
 data <- houseelf_data()
 
 
-#Question5
+#################################### Question 5 ##########################################
+
 install.packages("stringr")
 library(stringr)
 sequence <- "attggc"
