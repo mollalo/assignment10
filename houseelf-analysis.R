@@ -8,4 +8,5 @@
 #Add some code to houseelf-analysis.R that imports the data into R.
 #Commit these changes to version control
 
-data_houseelf <- read.csv("./data/houseelf-earlength-dna-data.csv")
+  data_houseelf <- read.csv("./data/houseelf_earlength_dna_data_1.csv")
+
