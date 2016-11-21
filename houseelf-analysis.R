@@ -29,7 +29,7 @@ data <- houseelf_data()
 
 
 
-#################################### Question 5 ##########################################
+#################################### Question 6 ##########################################
 
 install.packages("stringr")
 library(stringr)
@@ -54,19 +54,18 @@ for (seq in sequences){
   print(gc_content)
 }
 
-
+############################################## Question  7  ###############################
+# Results of pull
 get_ear_length <- function(seq){
-    #Calculate the GC-content for one or more sequences
-    ear_lengths <- ifelse(seq > 10, "large", "small")
-    return(ear_lengths)
+  #Calculate the GC-content for one or more sequences
+  ear_lengths <- ifelse(seq > 10, "large", "small")
+  return(ear_lengths)
 }
-
-
-############################################## Question  7   ###############################
+##############
 
 install.packages("stringr")
 library(stringr)
-data <- read.csv("./data/houseelf_earlength_dna_data_1.csv")
+data <- read.csv("./houseelf_earlength_dna_data_1.csv")
 
 #function that returns ear_length >10 as "large" and ear_length <= 10 as "small"
 ear_length <- function (number){
