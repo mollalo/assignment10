@@ -1,6 +1,7 @@
-#Question2:
-#Create a new file for your analysis named houseelf-analysis.R and add a comment at the top
-#describing what the analysis is intended to do.
+
+#################################### Question 2 ##########################################
+# Create a new file for your analysis named houseelf-analysis.R 
+# In this homework, we're gonna work with version control in R. 
 
 
 
