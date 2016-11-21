@@ -9,7 +9,7 @@
 # Read the data using a function:
 
 houseelf_data <- function() {
-  data <- read.csv ("./data/houseelf_earlength_dna_data.csv")
+  data <- read.csv ("./houseelf_earlength_dna_data.csv")
   return(data)
 }
 data <- houseelf_data()
