@@ -41,3 +41,6 @@ get_ear_length <- function(seq){
     ear_lengths <- ifelse(seq > 10, "large", "small")
     return(ear_lengths)
 }
+
+
+
