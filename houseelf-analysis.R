@@ -22,7 +22,7 @@ data <- houseelf_data()
 #Now I change the R code of question 3 to reflect this name change as follow:
 
 houseelf_data <- function() {
-  data <- read.csv ("./data/houseelf_earlength_dna_data_1.csv")
+  data <- read.csv ("./houseelf_earlength_dna_data_1.csv")
   return(data)
 }
 data <- houseelf_data()
