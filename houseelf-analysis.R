@@ -5,7 +5,7 @@
 
 
 houseelf_data <- function() {
-  data <- read.csv ("./data/houseelf_earlength_dna_data_2.csv")
+  data <- read.csv ("./data/houseelf_earlength_dna_data.csv")
   return(data)
 }
 data <- houseelf_data()
